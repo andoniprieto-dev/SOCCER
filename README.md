@@ -8,6 +8,8 @@ Prototipo jugable de una semana del CD Altamar: gestión (Inicio, Plantilla, Tá
 | --- | --- |
 | `prototipo-v9.html` | Versión actual. |
 | `prototipo-v8.html` | Versión anterior, como referencia. |
+| `documentacion/` | Documentos de diseño del juego (versión editada): especificación master, controles, simulación, UX, economía, roadmap y el resto. |
+| `croquis/` | Plan del croquis y croquis de las fases 1, 2 y 3. |
 
 ## Cambios de la v9
 
