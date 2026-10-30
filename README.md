@@ -14,15 +14,39 @@ Golden Moments FC es un mánager de fútbol para PC. La semana se gestiona desde
 | **Modelo** | Premium, sin microtransacciones ni licencias oficiales |
 | **Estado** | Documentación de diseño cerrada (octubre de 2026) y prototipo jugable de una semana |
 
-## Contenido del repositorio
+## Índice
 
-```
-.
-├── prototipo-v9.html     Prototipo jugable de una semana (versión actual)
-├── prototipo-v8.html     Versión anterior del prototipo, como referencia
-├── documentacion/        Documentos de diseño del juego (PDF)
-└── croquis/              Plan del croquis y croquis de pantallas (PDF)
-```
+### Prototipo
+
+- [Prototipo v9](prototipo-v9.html) · versión actual ([cómo abrirlo](#cómo-abrirlo))
+- [Prototipo v8](prototipo-v8.html) · versión anterior, como referencia
+
+### Documentación de diseño
+
+Todos los documentos están en [`documentacion/`](documentacion/).
+
+- **Visión general**: [Contexto](documentacion/Golden%20Moments%20FC%20%E2%80%94%20Contexto.pdf) · [Especificación Master](documentacion/Golden%20Moments%20FC%20%E2%80%94%20Especificaci%C3%B3n%20Master.pdf) · [Roadmap y producción](documentacion/Golden%20Moments%20FC%20%E2%80%94%20Roadmap%20y%20producci%C3%B3n.pdf)
+- **Partido**: [Motor de simulación del partido](documentacion/Golden%20Moments%20FC%20%E2%80%94%20Motor%20de%20simulaci%C3%B3n%20del%20partido.pdf) · [Sistema de Jugadas Destacadas](documentacion/Golden%20Moments%20FC%20%E2%80%94%20Sistema%20de%20Jugadas%20Destacadas.pdf) · [Controles y mecánicas (PC)](documentacion/Golden%20Moments%20FC%20%E2%80%94%20Controles%20y%20mec%C3%A1nicas%20%28PC%29.pdf) · [Sistema de tiro y pase](documentacion/Golden%20Moments%20FC%20%E2%80%94%20Sistema%20de%20tiro%20y%20pase.pdf) · [IA de jugadores de campo](documentacion/Golden%20Moments%20FC%20%E2%80%94%20IA%20de%20jugadores%20de%20campo.pdf) · [Alcance y Toma de Decisiones del Portero](documentacion/Golden%20Moments%20FC%20%E2%80%94%20Alcance%20y%20Toma%20de%20Decisiones%20del%20Portero.pdf) · [Balón Parado Portero e IA de Marcaje](documentacion/Golden%20Moments%20FC%20%E2%80%94%20Bal%C3%B3n%20Parado%20Portero%20e%20IA%20de%20Marcaje.pdf) · [Reglamento y árbitro](documentacion/Golden%20Moments%20FC%20%E2%80%94%20Reglamento%20y%20%C3%A1rbitro.pdf)
+- **Gestión**: [Gestión de plantilla](documentacion/Golden%20Moments%20FC%20%E2%80%94%20Gesti%C3%B3n%20de%20plantilla.pdf) · [Atributos y fórmulas comunes](documentacion/Golden%20Moments%20FC%20%E2%80%94%20Atributos%20y%20f%C3%B3rmulas%20comunes.pdf) · [Subida de GRL y ADN de Canteranos](documentacion/Golden%20Moments%20FC%20%E2%80%94%20Subida%20de%20GRL%20y%20ADN%20de%20Canteranos.pdf) · [Economía y base de datos de jugadores](documentacion/Golden%20Moments%20FC%20%E2%80%94%20Econom%C3%ADa%20y%20base%20de%20datos%20de%20jugadores.pdf) · [Carrera del mánager](documentacion/Golden%20Moments%20FC%20%E2%80%94%20Carrera%20del%20m%C3%A1nager.pdf) · [Competiciones y mundo](documentacion/Golden%20Moments%20FC%20%E2%80%94%20Competiciones%20y%20mundo.pdf)
+- **Presentación**: [UX y flujo de pantallas](documentacion/Golden%20Moments%20FC%20%E2%80%94%20UX%20y%20flujo%20de%20pantallas.pdf) · [Guía de arte, animación y audio](documentacion/Golden%20Moments%20FC%20%E2%80%94%20Gu%C3%ADa%20de%20arte%2C%20animaci%C3%B3n%20y%20audio.pdf) · [Narrativa y presentación](documentacion/Golden%20Moments%20FC%20%E2%80%94%20Narrativa%20y%20presentaci%C3%B3n.pdf)
+- **Técnica**: [Arquitectura técnica y guardado](documentacion/Golden%20Moments%20FC%20%E2%80%94%20Arquitectura%20t%C3%A9cnica%20y%20guardado.pdf)
+- **Pendientes**: [Documentaciones pendientes](documentacion/Golden%20Moments%20FC%20%E2%80%94%20Documentaciones%20pendientes.docx) (`.docx`)
+
+### Croquis
+
+Todos los croquis están en [`croquis/`](croquis/).
+
+- [Plan del croquis](croquis/Golden%20Moments%20FC%20%E2%80%94%20Plan%20del%20croquis.pdf)
+- [Fase 1](croquis/Golden%20Moments%20FC%20%E2%80%94%20Croquis%20fase%201.pdf)
+- [Fases 1 y 2](croquis/Golden%20Moments%20FC%20%E2%80%94%20Croquis%20fases%201%20y%202.pdf)
+- [Fase 3 (color)](croquis/Golden%20Moments%20FC%20%E2%80%94%20Croquis%20fase%203%20%28color%29.pdf)
+
+### En esta página
+
+- [Prototipo de semana](#prototipo-de-semana)
+- [Documentación de diseño](#documentación-de-diseño-1)
+- [Croquis](#croquis-1)
+- [Hoja de ruta](#hoja-de-ruta)
 
 ## Prototipo de semana
 
@@ -63,7 +87,7 @@ El prototipo está pensado para sesiones de prueba moderadas. La barra de medici
 
 ## Documentación de diseño
 
-Todos los documentos están en [`documentacion/`](documentacion/). Si dos documentos no coinciden, manda **Atributos y fórmulas comunes** para atributos, fórmulas y constantes, y la **Especificación Master** para todo lo demás.
+Si dos documentos no coinciden, manda **Atributos y fórmulas comunes** para atributos, fórmulas y constantes, y la **Especificación Master** para todo lo demás.
 
 | Área | Documentos |
 | --- | --- |
